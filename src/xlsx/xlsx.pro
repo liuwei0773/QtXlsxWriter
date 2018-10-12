@@ -5,6 +5,7 @@ QMAKE_DOCS = $$PWD/doc/qtxlsx.qdocconf
 load(qt_module)
 
 CONFIG += build_xlsx_lib
+CONFIG-=create_cmake
 include(qtxlsx.pri)
 
 #Define this macro if you want to run tests, so more AIPs will get exported.
